@@ -72,7 +72,6 @@ li {
 .grid-2 {
   margin-bottom: 40px;
   grid-column-gap: 16px;
-  grid-template-areas: "Area . Area-2" ". . ." ". . ." "Area-3 Area-4 ." ". . ." ". . ." ". Area-6 ." ". Area-5 .";
   -ms-grid-columns: 1fr 16px 1fr 16px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto auto auto auto auto auto auto auto;
