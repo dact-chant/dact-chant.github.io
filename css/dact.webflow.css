@@ -75,7 +75,7 @@ li {
   -ms-grid-columns: 1fr 16px 1fr 16px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto auto auto auto auto auto auto auto;
-  grid-template-rows: auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto;
 }
 
 .list-item {
