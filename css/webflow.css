@@ -1589,8 +1589,8 @@ textarea.w-select {
   margin-left: auto;
   margin-right: auto;
 }
-.w-nav-link.w--current {
-  color: #0082f3;
+.nav-link.w--current {
+  color: #8d2325;
 }
 .w-nav-menu {
   position: relative;
