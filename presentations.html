@@ -26,13 +26,29 @@
 			<nav role="navigation" class="w-nav-menu">
 				<a href="index.html" class="nav-link w-nav-link">Home</a>
 				<div class="dropdown nav-link w-nav-link">
-				  Activities ▼
-				  <div class="dropdown-content">
+				  <button class="dropbtn" onclick="toggleDropdown()">
+					Activities ▼
+				  </button>
+				  <div class="dropdown-content" id="activitiesDropdown">
 				    <a href="presentations.html" class="nav-link w-nav-link">Presentations</a>
 					<a href="publications.html" class="nav-link w-nav-link">Publications</a>
 					<a href="workshops.html" class="nav-link w-nav-link">Workshops</a>
 				  </div>
-				</div>
+			  	</div>
+				<script>
+				function toggleDropdown() {
+				  document.getElementById("activitiesDropdown").classList.toggle("show");
+				}
+
+				window.onclick = function(e) {
+				  if (!e.target.matches('.dropbtn')) {
+				  var myDropdown = document.getElementById("activitiesDropdown");
+				    if (myDropdown.classList.contains('show')) {
+				      myDropdown.classList.remove('show');
+				    }
+				  }
+				}
+				</script>
 				<a href="projects.html" class="nav-link w-nav-link">Projects</a>
 				<a href="participants.html" class="nav-link w-nav-link">Participants</a>
 				<a href="hildegard.html" class="nav-link w-nav-link">Hildegard Music Research Guide</a>
