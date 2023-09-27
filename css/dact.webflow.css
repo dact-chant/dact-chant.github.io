@@ -25,6 +25,10 @@ li {
   white-space: normal;
 }
 
+.w-container {
+  padding: 0 8px;
+}
+
 .heading {
   color: #8d2325;
   font-size: 26px;
